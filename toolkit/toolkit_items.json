@@ -1,0 +1,232 @@
+{
+  "toolkit": {
+    "question_types": [
+      {
+        "type": "multiple_choice",
+        "skills": [
+          "listening",
+          "reading",
+          "grammar",
+          "vocabulary",
+          "punctuation",
+          "functional"
+        ],
+        "formats": [
+          "gist",
+          "detail",
+          "inference",
+          "meaning_in_context"
+        ]
+      },
+      {
+        "type": "gap_fill",
+        "skills": [
+          "listening",
+          "reading",
+          "grammar",
+          "vocabulary",
+          "spelling"
+        ],
+        "formats": [
+          "audio_cloze",
+          "form_fill",
+          "summary_fill"
+        ]
+      },
+      {
+        "type": "matching",
+        "skills": [
+          "listening",
+          "vocabulary",
+          "functional",
+          "literature",
+          "phonology"
+        ],
+        "formats": [
+          "collocation",
+          "phrase_to_function",
+          "gesture_to_culture"
+        ]
+      },
+      {
+        "type": "sentence_completion",
+        "skills": [
+          "reading",
+          "grammar",
+          "academic_writing"
+        ],
+        "formats": [
+          "text_completion",
+          "structure_fill",
+          "key_word_completion"
+        ]
+      },
+      {
+        "type": "sentence_transformation",
+        "skills": [
+          "grammar",
+          "writing",
+          "syntax"
+        ],
+        "formats": [
+          "active_passive",
+          "reported_speech",
+          "rewrite_task"
+        ]
+      },
+      {
+        "type": "dictation",
+        "skills": [
+          "listening",
+          "spelling",
+          "phonology"
+        ],
+        "formats": [
+          "sentence_audio",
+          "spelling_typing",
+          "error_detection"
+        ]
+      },
+      {
+        "type": "open_response",
+        "skills": [
+          "writing",
+          "literature",
+          "critical_thinking"
+        ],
+        "formats": [
+          "essay",
+          "short_answer",
+          "summary",
+          "reflection"
+        ]
+      },
+      {
+        "type": "drag_drop",
+        "skills": [
+          "reading",
+          "grammar",
+          "study_skills"
+        ],
+        "formats": [
+          "paragraph_ordering",
+          "outline_builder",
+          "word_bank_cloze"
+        ]
+      },
+      {
+        "type": "classification",
+        "skills": [
+          "vocabulary",
+          "grammar",
+          "phonology"
+        ],
+        "formats": [
+          "word_families",
+          "tense_type",
+          "register_style"
+        ]
+      },
+      {
+        "type": "role_play",
+        "skills": [
+          "speaking",
+          "functional",
+          "professional"
+        ],
+        "formats": [
+          "job_interview",
+          "customer_service",
+          "debate_simulation"
+        ]
+      },
+      {
+        "type": "minimal_pairs",
+        "skills": [
+          "pronunciation",
+          "phonology"
+        ],
+        "formats": [
+          "sound_discrimination",
+          "choose_correct_sound"
+        ]
+      },
+      {
+        "type": "error_correction",
+        "skills": [
+          "grammar",
+          "punctuation",
+          "spelling"
+        ],
+        "formats": [
+          "proofreading",
+          "sentence_fix",
+          "mechanics_game"
+        ]
+      },
+      {
+        "type": "listening_comprehension",
+        "skills": [
+          "listening"
+        ],
+        "formats": [
+          "note_taking",
+          "lecture_response",
+          "short_dialog"
+        ]
+      },
+      {
+        "type": "interactive_transcript",
+        "skills": [
+          "listening",
+          "reading"
+        ],
+        "formats": [
+          "clickable_script",
+          "highlight_and_replay"
+        ]
+      },
+      {
+        "type": "flashcards",
+        "skills": [
+          "vocabulary"
+        ],
+        "formats": [
+          "spaced_repetition",
+          "audio_plus_definition"
+        ]
+      }
+    ],
+    "languages_supported": "all_languages",
+    "audio_logic": {
+      "identifiercode_based": true,
+      "accent_buckets": [
+        "UK",
+        "US",
+        "Kid-UK",
+        "Old-Man-US",
+        "Robot-CA"
+      ],
+      "icons": [
+        "\ud83c\udfa7",
+        "\ud83e\udde0",
+        "\u221e",
+        "\ud83d\udcdd",
+        "\ud83d\uddc4\ufe0f",
+        "\ud83d\udeab\ud83d\uddc4\ufe0f"
+      ]
+    },
+    "ai_capabilities": {
+      "generate_from_word_list": true,
+      "generate_from_sentence_table": true,
+      "assign_audio_icons": true,
+      "use_speed_control": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "suggest_layout_by_icon": true
+    }
+  }
+}
